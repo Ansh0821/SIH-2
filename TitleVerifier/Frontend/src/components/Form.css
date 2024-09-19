@@ -1,0 +1,30 @@
+/* Form.css */
+
+.custom-checkbox {
+  appearance: none; /* Remove default checkbox appearance */
+  width: 24px;
+  height: 24px;
+  border-radius: 50%; /* Make checkbox round */
+  border: 2px solid #d1d5db; /* Border color */
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.custom-checkbox:checked {
+  background-color: #2563eb; /* Checked background color */
+  border-color: #2563eb; /* Border color when checked */
+}
+
+.custom-checkbox:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: white; /* Circle color inside when checked */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
