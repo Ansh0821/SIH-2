@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+*.whl
+*.log
+.env
+.env.local
+.env.*.local
+.ipynb_checkpoints
+.cache
+.pytest_cache/
+
+# React/Vite
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+*.log
+*.tsbuildinfo
+.env.local
+.env.*.local
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.cov
+htmlcov/
